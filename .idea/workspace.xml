@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64751215-1f5d-4c32-a8bc-7ffbe6524901" name="Default Changelist" comment="" />
+    <list default="true" id="64751215-1f5d-4c32-a8bc-7ffbe6524901" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/dwitphase3/UserOrderController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/dwitphase3/UserOrderController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/product/unit.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/product/unit.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/.grails/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,23 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/dwitphase3/ProductController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
-              <folding>
-                <element signature="e#20#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/dwitphase3/UserOrderController.groovy">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/product/unit.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="150" column="13" lean-forward="true" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -121,6 +115,9 @@
       <replace>Shakya</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GrailsSDKManager">
     <option name="grailsSDKs">
       <map>
@@ -171,7 +168,6 @@
         <option value="$PROJECT_DIR$/grails-app/views/userOrder/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/userOrder/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/userpanel.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/product/unit.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/product/results.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/product/land.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
@@ -182,6 +178,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/userOrder/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/dwitphase3/ProductController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/dwitphase3/UserOrderController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/product/unit.gsp" />
       </list>
     </option>
   </component>
@@ -196,6 +193,7 @@
     <option name="width" value="1124" />
     <option name="height" value="552" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -207,37 +205,6 @@
             <path>
               <item name="DwitPhase3" type="b2602c69:ProjectViewProjectNode" />
               <item name="DwitPhase3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DwitPhase3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DwitPhase3" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DwitPhase3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DwitPhase3" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DwitPhase3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DwitPhase3" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DwitPhase3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DwitPhase3" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DwitPhase3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DwitPhase3" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="userOrder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DwitPhase3" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +223,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549893617449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549895643014" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="grails.last.selected.app.url" value="file://$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -371,12 +338,12 @@
       <workItem from="1549765638500" duration="3009000" />
       <workItem from="1549802881716" duration="5871000" />
       <workItem from="1549860350136" duration="3193000" />
-      <workItem from="1549887132898" duration="5137000" />
+      <workItem from="1549887132898" duration="6590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170310000" />
+    <option name="totallyTimeSpent" value="171763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +390,7 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.3298217" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.024311183" />
+      <window_info anchor="right" id="Database" order="6" weight="0.07698541" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298217" />
@@ -600,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://0c2bbf83-0465-4350-819e-a36547398479/schema/dwitphase3/table/product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_datalist.gsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -715,13 +675,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/unit.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/product/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -808,10 +761,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://0c2bbf83-0465-4350-819e-a36547398479/schema/dwitphase3/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/dwitphase3/UserOrderController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="150" column="13" lean-forward="true" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/product/unit.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
         </state>
       </provider>
     </entry>

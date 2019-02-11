@@ -51,6 +51,10 @@ class UserOrderController {
         userOrderInstance.status = 2
         userOrderInstance.save()
 
+        Product product = Product.get(userOrderInstance.product.id)
+        product.stock = product.stock - userOrderInstance.quantity
+        product.save()
+
         def text = "Your order for "+ userOrderInstance.product.name+"("+userOrderInstance.quantity+") has been confirmed.<br>"+
                 " The total is "+(userOrderInstance.product.price*userOrderInstance.quantity)+". <br>"+
                 "Thank you and hope you visit again."

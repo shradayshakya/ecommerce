@@ -62,12 +62,18 @@
 						<!-- In Stock -->
 						<div class="in_stock_container">
 							<div class="availability">Availability:</div>
-							<span>${(product.price>0?'In Stock':'Out of Stock')} </span>
+							<g:if test="${product.stock>0}" >
+								<span>In stock</span>
+							</g:if>
+							<g:else>
+								<span class="text-danger">Out of stock</span>
+							</g:else>
 						</div>
 						<div class="details_text">
 							<p>${product.description}</p>
 						</div>
 
+						<g:if test="${product.stock}">
 						<!-- Product Quantity -->
 						<div class="product_quantity_container">
 							<div class="product_quantity clearfix">
@@ -76,10 +82,13 @@
 									<input type="hidden" name="productId" value="${product.id}">
 								<input id="quantity_input" name="quantity" type="number" min="1" max="${product.stock}" pattern="[0-9]*" value="1">
 							</div>
-							<div class="button cart_button"><button type="submit">Add to cart</button></div>
+
+									<div class="button cart_button"><button type="submit">Add to cart</button></div>
+
+
 								</g:form>
 						</div>
-
+						</g:if>
 						<!-- Share -->
 						<div class="details_share">
 							<span>Share:</span>
